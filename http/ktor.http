@@ -1,0 +1,16 @@
+### get root
+GET http://localhost:18080/
+
+### get path 1
+GET http://localhost:18080/customer/1
+
+### post
+POST http://localhost:18080/customer
+Content-Type: application/json
+
+{
+  "id": "1",
+  "first_name": "Firstname",
+  "last_name": "LastName",
+  "email": "email@email.email"
+}
